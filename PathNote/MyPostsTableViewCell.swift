@@ -1,21 +1,20 @@
 //
-//  NearbyPostsTableViewCell.swift
-//  Helpem
+//  MyPostsTableViewCell.swift
+//  PathNote
 //
-//  Created by Nicholas Jaimes on 1/1/18.
-//  Copyright © 2018 Nicholas Jaimes. All rights reserved.
+//  Created by Nicholas Jaimes on 12/21/17.
+//  Copyright © 2017 Nicholas Jaimes. All rights reserved.
 //
 
 import UIKit
 
-class NearbyPostsTableViewCell: UITableViewCell {
+class MyPostsTableViewCell: UITableViewCell {
 
-    
     
     @IBOutlet weak var lblCellPostMessage: UILabel!
     
     
-    @IBOutlet weak var btnCellPostReport: UIButton!
+    @IBOutlet weak var btnCellPostDelete: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -1,6 +1,6 @@
 //
 //  PostsMenuViewController.swift
-//  Helpem
+//  PathNote
 //
 //  Created by Nicholas Jaimes on 12/21/17.
 //  Copyright © 2017 Nicholas Jaimes. All rights reserved.

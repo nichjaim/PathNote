@@ -1,6 +1,6 @@
 //
 //  NearbyPostsViewController.swift
-//  Helpem
+//  PathNote
 //
 //  Created by Nicholas Jaimes on 1/1/18.
 //  Copyright © 2018 Nicholas Jaimes. All rights reserved.

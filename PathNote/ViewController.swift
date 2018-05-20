@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Helpem
+//  PathNote
 //
 //  Created by Nicholas Jaimes on 10/27/17.
 //  Copyright © 2017 Nicholas Jaimes. All rights reserved.

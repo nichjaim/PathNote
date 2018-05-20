@@ -1,6 +1,6 @@
 //
 //  CreateAccountViewController.swift
-//  Helpem
+//  PathNote
 //
 //  Created by Nicholas Jaimes on 10/30/17.
 //  Copyright © 2017 Nicholas Jaimes. All rights reserved.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Helpem.xcodeproj">
+      location = "self:/Users/nicholasjaimes/Desktop/PathNote/PathNote.xcodeproj">
    </FileRef>
 </Workspace>

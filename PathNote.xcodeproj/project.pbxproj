@@ -16,7 +16,6 @@
 		AABC256F1FA3F8F800669D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC256E1FA3F8F800669D81 /* AppDelegate.swift */; };
 		AABC25711FA3F8F800669D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABC25701FA3F8F800669D81 /* ViewController.swift */; };
 		AABC25741FA3F8F800669D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABC25721FA3F8F800669D81 /* Main.storyboard */; };
-		AABC25771FA3F8F800669D81 /* Helpem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABC25751FA3F8F800669D81 /* Helpem.xcdatamodeld */; };
 		AABC25791FA3F8F800669D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABC25781FA3F8F800669D81 /* Assets.xcassets */; };
 		AABC257C1FA3F8F800669D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABC257A1FA3F8F800669D81 /* LaunchScreen.storyboard */; };
 		AAE77C891FB50C4000F71BBF /* CreateMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE77C881FB50C4000F71BBF /* CreateMessageViewController.swift */; };
@@ -32,11 +31,10 @@
 		AA2383D11FFB1C5E000EDF79 /* NearbyPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPostsViewController.swift; sourceTree = "<group>"; };
 		AA2383D31FFB1D2E000EDF79 /* NearbyPostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyPostsTableViewCell.swift; sourceTree = "<group>"; };
 		AA2B99081FA806D800DF099C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
-		AABC256B1FA3F8F800669D81 /* Helpem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helpem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABC256B1FA3F8F800669D81 /* PathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABC256E1FA3F8F800669D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AABC25701FA3F8F800669D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AABC25731FA3F8F800669D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AABC25761FA3F8F800669D81 /* Helpem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helpem.xcdatamodel; sourceTree = "<group>"; };
 		AABC25781FA3F8F800669D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AABC257B1FA3F8F800669D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AABC257D1FA3F8F800669D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +59,7 @@
 		AABC25621FA3F8F700669D81 = {
 			isa = PBXGroup;
 			children = (
-				AABC256D1FA3F8F800669D81 /* Helpem */,
+				AABC256D1FA3F8F800669D81 /* PathNote */,
 				AABC256C1FA3F8F800669D81 /* Products */,
 				AAF7AA211FB17156002DB417 /* Frameworks */,
 			);
@@ -70,12 +68,12 @@
 		AABC256C1FA3F8F800669D81 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AABC256B1FA3F8F800669D81 /* Helpem.app */,
+				AABC256B1FA3F8F800669D81 /* PathNote.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AABC256D1FA3F8F800669D81 /* Helpem */ = {
+		AABC256D1FA3F8F800669D81 /* PathNote */ = {
 			isa = PBXGroup;
 			children = (
 				AABC256E1FA3F8F800669D81 /* AppDelegate.swift */,
@@ -93,9 +91,8 @@
 				AABC25781FA3F8F800669D81 /* Assets.xcassets */,
 				AABC257A1FA3F8F800669D81 /* LaunchScreen.storyboard */,
 				AABC257D1FA3F8F800669D81 /* Info.plist */,
-				AABC25751FA3F8F800669D81 /* Helpem.xcdatamodeld */,
 			);
-			path = Helpem;
+			path = PathNote;
 			sourceTree = "<group>";
 		};
 		AAF7AA211FB17156002DB417 /* Frameworks */ = {
@@ -109,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AABC256A1FA3F8F700669D81 /* Helpem */ = {
+		AABC256A1FA3F8F700669D81 /* PathNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AABC25801FA3F8F800669D81 /* Build configuration list for PBXNativeTarget "Helpem" */;
+			buildConfigurationList = AABC25801FA3F8F800669D81 /* Build configuration list for PBXNativeTarget "PathNote" */;
 			buildPhases = (
 				AABC25671FA3F8F700669D81 /* Sources */,
 				AABC25681FA3F8F700669D81 /* Frameworks */,
@@ -121,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = Helpem;
-			productName = Helpem;
-			productReference = AABC256B1FA3F8F800669D81 /* Helpem.app */;
+			name = PathNote;
+			productName = PathNote;
+			productReference = AABC256B1FA3F8F800669D81 /* PathNote.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AABC25661FA3F8F700669D81 /* Build configuration list for PBXProject "Helpem" */;
+			buildConfigurationList = AABC25661FA3F8F700669D81 /* Build configuration list for PBXProject "PathNote" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -155,7 +152,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AABC256A1FA3F8F700669D81 /* Helpem */,
+				AABC256A1FA3F8F700669D81 /* PathNote */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +179,6 @@
 				AA2B99091FA806D800DF099C /* CreateAccountViewController.swift in Sources */,
 				AA082EBD1FEC685F00EAD182 /* MyPostsViewController.swift in Sources */,
 				AABC25711FA3F8F800669D81 /* ViewController.swift in Sources */,
-				AABC25771FA3F8F800669D81 /* Helpem.xcdatamodeld in Sources */,
 				AA082EBF1FEC6FBE00EAD182 /* MyPostsTableViewCell.swift in Sources */,
 				AA2383D41FFB1D2E000EDF79 /* NearbyPostsTableViewCell.swift in Sources */,
 				AAF7AA201FB1563E002DB417 /* MapViewController.swift in Sources */,
@@ -328,10 +324,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPSAZEX727;
-				INFOPLIST_FILE = Helpem/Info.plist;
+				INFOPLIST_FILE = PathNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = njaimes2.Helpem;
+				PRODUCT_BUNDLE_IDENTIFIER = njaimes2.PathNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -344,10 +340,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NPSAZEX727;
-				INFOPLIST_FILE = Helpem/Info.plist;
+				INFOPLIST_FILE = PathNote/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = njaimes2.Helpem;
+				PRODUCT_BUNDLE_IDENTIFIER = njaimes2.PathNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -357,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AABC25661FA3F8F700669D81 /* Build configuration list for PBXProject "Helpem" */ = {
+		AABC25661FA3F8F700669D81 /* Build configuration list for PBXProject "PathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AABC257E1FA3F8F800669D81 /* Debug */,
@@ -366,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AABC25801FA3F8F800669D81 /* Build configuration list for PBXNativeTarget "Helpem" */ = {
+		AABC25801FA3F8F800669D81 /* Build configuration list for PBXNativeTarget "PathNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AABC25811FA3F8F800669D81 /* Debug */,
@@ -376,19 +372,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AABC25751FA3F8F800669D81 /* Helpem.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AABC25761FA3F8F800669D81 /* Helpem.xcdatamodel */,
-			);
-			currentVersion = AABC25761FA3F8F800669D81 /* Helpem.xcdatamodel */;
-			path = Helpem.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AABC25631FA3F8F700669D81 /* Project object */;
 }
